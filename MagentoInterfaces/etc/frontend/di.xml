@@ -1,0 +1,11 @@
+<?xml version="1.0" ?>
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+
+    <preference for="AndreiaCardoso\MagentoInterfaces\Api\DateNowInterface"
+                type="AndreiaCardoso\MagentoInterfaces\Model\DateNow" />
+
+    <preference for="AndreiaCardoso\MagentoInterfaces\Api\TimeNowInterface"
+                type="AndreiaCardoso\MagentoInterfaces\Model\TimeNow" />
+
+</config>
