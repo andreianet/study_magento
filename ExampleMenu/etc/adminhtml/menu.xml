@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="AndreiaCardoso_ExampleMenu::menu" title="Menu Store" module="AndreiaCardoso_ExampleMenu" resource="AndreiaCardoso_ExampleMenu::menu" sortOrder="10"/>
+        <add id="AndreiaCardoso_ExampleMenu::item" title="Help Menu" module="AndreiaCardoso_ExampleMenu" resource="AndreiaCardoso_ExampleMenu::item" parent="AndreiaCardoso_ExampleMenu::menu" action="menustore/item"/>
+    </menu>
+</config>
