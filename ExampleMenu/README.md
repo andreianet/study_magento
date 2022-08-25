@@ -4,7 +4,7 @@ Na criação de um menu no Magento, adicionamos no
 arquivo menu.xml. A estrutura será dentro do arquivo
 etc/adminhtml/menu.xml.
 
-Alguns atributos e informações mportantes,como:
+Alguns atributos e informações importantes,como:
 
 * id => atributos de identificador
 {Vendor_ModuleName}::{menu_description};
@@ -18,3 +18,6 @@ atributo é de outro menu;
 um formato como: {router_name}{controller_folder}{action_name};
 * o atributo define uma regra do ACL, para que o usuário admin deve ter
 para acessar este menu;
+
+![Menu Criado](app/code/AndreiaCardoso/ExampleMenu/view/adminhtml/web/images/menu.png?raw=true)
+
