@@ -19,5 +19,5 @@ um formato como: {router_name}{controller_folder}{action_name};
 * o atributo define uma regra do ACL, para que o usuário admin deve ter
 para acessar este menu;
 
-<img src="app/code/AndreiaCardoso/ExampleMenu/view/adminhtml/web/images/menu.png />
+<img src="https://github.com/andreianet/study_magento/tree/master/ExampleMenu/view/adminhtml/web/images/menu.png >
 
